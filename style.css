@@ -1,0 +1,38 @@
+:root{
+    --shadow: 0 2px 2px rgba(0 0 0 0.5);
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.hero{
+    font-size: 1.2 rem;
+    min-height: 100vh;
+    background: url(./assets/wd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    text-shadow: var(--shadow);
+}
+
+.hero h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+}
+
+.hero a{
+    font-size: 0.9rem;
+    background-color:white ;
+    color: rgb(255, 136, 156);
+}
+
+.hero a:hover{
+    font-size: 0.9rem;
+   
+    background-color: rgb(255, 136, 156);
+    color: white;
+}
+
